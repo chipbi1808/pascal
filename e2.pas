@@ -60,8 +60,8 @@ begin
 	writeln(fo,flick(arr,n));
 end;
 begin
-	assign(fi,'C:\Users\thanhnt\Desktop\Code\e2in.inp');
-	assign(fo, 'C:\Users\thanhnt\Desktop\Code\e2ou.out');
+	assign(fi,'');
+	assign(fo, '');
 	reset(fi);
 	rewrite(fo);
 	read(fi,arr,n);
