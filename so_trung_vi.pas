@@ -1,6 +1,6 @@
 program ss;
-const fii='C:\Users\ChinhMinh\Documents\Pascal\_odj2\trungvi\a.inp';
-	  foo='C:\Users\ChinhMinh\Documents\Pascal\_odj2\trungvi\a.out';
+const fii='';
+	  foo='';
 var a:array[1..100,1..100] of integer;
  	n:integer;
     fi,fo:text;
@@ -14,7 +14,9 @@ Begin
     	While (x<a[p][j]) do j:=j-1;
      	If i<=j then
         	Begin
-         		w:=a[p][i];a[p][i]:=a[p][j];a[p][j]:=w;
+         		w:=a[p][i];
+			a[p][i]:=a[p][j];
+			a[p][j]:=w;
           		i:=i+1;j:=j-1;
         	End;	
 
